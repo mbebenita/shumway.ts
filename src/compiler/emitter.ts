@@ -181,8 +181,8 @@ module TypeScript {
     }
 
     export class Indenter {
-        static indentStep: number = 4;
-        static indentStepString: string = "    ";
+        static indentStep: number = 2;
+        static indentStepString: string = "  ";
         static indentStrings: string[] = [];
         public indentAmt: number = 0;
 
